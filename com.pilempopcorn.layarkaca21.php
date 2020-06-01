@@ -1,9 +1,10 @@
 <?php
+ini_set('error_reporting', E_STRICT);
 //header('Content-type: application/json');
 
-$version = "7"; //versi yang berbeda akan membuat jendela popup update tampil
-$package = "com.hdmovies.freecinema"; //package sama akan membuka playstore yg sama, kl banned bisa diganti untuk mengarahkan update ke package baru
-$key = "039559ca2fd25c16255f516672a9adc2d6443e9f3454ef23"; //appodeal key
+$version = "1"; //versi yang berbeda akan membuat jendela popup update tampil
+$package = "com.pilempopcorn.layarkaca21"; //package sama akan membuka playstore yg sama, kl banned bisa diganti untuk mengarahkan update ke package baru
+$key = "911fdcb8e4d4316ec63532389aa91d79581c39f91b03b110"; //appodeal key
 $host = "1mov.xyz, gdriveplayer.us, gdriveplayer.me, gdriveplayer.co, vidcloud9.com, vidnode.net, vidcloud9.com, gcloud.live, youtube.com, 123movie.cc, fvs.io, googlevideo.com, o0-3.com, o0-2.com, o0-4.com, o0-1.com";
 $image = "1"; /// set 0 untuk sebelum publish untuk off kan gambar, set 1 setelah publish
 
